@@ -11,7 +11,7 @@ curl -X GET localhost:3030/users/go
 Limit the results to 20
 
 ```
-curl -X GET localhost:3030/users/go?limit=20
+curl -X GET localhost:3030/users/haskell?limit=20
 ```
 
 ### Running the service

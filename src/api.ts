@@ -10,7 +10,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.listen(PORT, async () => {
-  console.log(`✅  Ready on port http://localhost:${PORT}`);
+	console.log(`✅  Ready on port http://localhost:${PORT}`);
 
-  routes(app);
+	routes(app);
 });
+
+export default app;
